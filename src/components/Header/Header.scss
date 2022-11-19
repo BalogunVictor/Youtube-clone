@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 15px;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size:20px;
+      cursor: pointer;
+    }
+  
+   img {
+    width: 100px;
+    margin-left: 15px;
+  }
+}
+  
+  .headerSearch form {
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+   input {
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    height: 100%;
+  } 
+  
+  button {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 40px;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.headerIcons span {
+  font-size: 20px;
+  padding: 0 7px;
+  cursor: pointer;
+  
+  color: rgb(96, 96, 96)
+}
+
+}
