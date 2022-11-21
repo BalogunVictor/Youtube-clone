@@ -3,11 +3,11 @@ import "./Rightbar.scss"
 const Rightbar = () => {
   return (
     <div className="rightbar">
-    
+
     <div className="videos">
     <h1>Recommended</h1>
 
-    <div class="videosContainer">
+    <div className="videosContainer">
 
       <div className="video">
         <div className="videoThumbnail">

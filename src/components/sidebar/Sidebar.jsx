@@ -13,7 +13,7 @@ const Sidebar = () => {
             <ul className='sidebarList'>
               <li className='sidebarListItem'>
                 <IoMdHome className='sidebarIcon'/>
-                <span className='sidebarListItemText'>home</span>
+                <span className='sidebarListItemText'>Home</span>
               </li>
             </ul>
             <ul className='sidebarList'>

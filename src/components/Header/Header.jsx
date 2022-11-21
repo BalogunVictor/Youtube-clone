@@ -8,8 +8,8 @@ import {MdAccountCircle} from 'react-icons/md'
 
 const Header = () => {
   return (
-    <div class="header">
-      <div class="headerLeft">
+    <div className="header">
+      <div className="headerLeft">
         <span><HiMenu>menu</HiMenu></span>
         <img
           src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
@@ -17,14 +17,14 @@ const Header = () => {
         />
       </div>
 
-      <div class="headerSearch">
+      <div className="headerSearch">
         <form action="">
           <input type="text" placeholder="Search" />
           <button><BsSearch>search</BsSearch></button>
         </form>
       </div>
 
-      <div class="headerIcons">
+      <div className="headerIcons">
      <span><BsSearch>Search</BsSearch></span> 
      <span><MdVideocam>Videocam</MdVideocam></span> 
      <span><GrApps>Apps</GrApps></span>
