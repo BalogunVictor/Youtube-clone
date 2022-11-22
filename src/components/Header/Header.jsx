@@ -12,7 +12,7 @@ const Header = () => {
       <div className="headerLeft">
         <span><HiMenu>menu</HiMenu></span>
         <img
-          src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
+          src="https://github.com/kunaal438/youtube-clone/blob/master/img/logo.PNG?raw=trueG"
           alt=""
         />
       </div>
