@@ -5,12 +5,23 @@ import { MdVideocam } from 'react-icons/md';
 import {GrApps} from 'react-icons/gr';
 import {MdNotifications} from 'react-icons/md';
 import {MdAccountCircle} from 'react-icons/md'
+import { useState } from "react";
 
 const Header = () => {
+
+  const [toggle, setToggle] = useState(true);
+
+  const handleClick = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <div className="header">
       <div className="headerLeft">
-        <span><HiMenu>menu</HiMenu></span>
+        <span ><HiMenu 
+        onClick={handleClick} menu >
+
+        menu</HiMenu></span>
         <img
           src="https://github.com/kunaal438/youtube-clone/blob/master/img/logo.PNG?raw=trueG"
           alt=""

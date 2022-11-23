@@ -1,0 +1,36 @@
+.sidebar{
+  flex: 0.6;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  
+  .sidebarWrapper{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    padding: 15px 15px;
+
+  &:hover {
+    background: #e5e5e5;
+    cursor: pointer;
+  }
+    .sidebarIcon{
+      margin-right: 15px;
+      font-size: 25px;
+    }
+  
+  }
+}

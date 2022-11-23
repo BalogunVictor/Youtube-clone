@@ -2,8 +2,8 @@ import "./Rightbar.scss"
 import Video from "../Video/Video"
 import {Videos} from "../../data"
 
-const Rightbar = () => {
 
+const Rightbar = () => {
 
   return (
     <div className="rightbar">
