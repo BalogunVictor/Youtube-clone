@@ -16,7 +16,7 @@ const Homepage = () => {
     <Header onClickBar={handleOpen} />
     <div className="homeContainer"> 
 
-        {open ? <Sidebar /> : <SideIcons />} 
+        {open ? <SideIcons />  : <Sidebar />} 
       
         <Rightbar />
       </div>
