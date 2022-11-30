@@ -7,13 +7,17 @@ import { useState } from "react";
 
 
 const Homepage = () => {
+  
   const [open, setOpen] = useState(false) 
-  const handleOpen= ()=>{
+ 
+  const handleOpen= () => {
     setOpen((prev)=>!prev)
   }
+
   return (
     <>
-    <Header onClickBar={handleOpen} />
+    <Header onClickBar={handleOpen} 
+    />
     <div className="homeContainer"> 
 
         {open ? <SideIcons />  : <Sidebar />} 
