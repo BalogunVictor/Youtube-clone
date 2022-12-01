@@ -4,7 +4,10 @@ import {Videos} from "../../data"
 // import Slide from "../Slide/Slide"
 
 
-const Rightbar = () => {
+const Rightbar = ({filterVideos}) => {
+
+  
+
 
   return (
     <div className="rightbar">

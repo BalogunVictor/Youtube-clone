@@ -1,5 +1,4 @@
 import "./Header.scss"
-import { useState } from "react";
 import { BsSearch } from 'react-icons/bs';
 import { HiMenu } from 'react-icons/hi';
 import { MdVideocam } from 'react-icons/md';
@@ -8,9 +7,9 @@ import {MdNotifications} from 'react-icons/md';
 import {MdAccountCircle} from 'react-icons/md'
 
 
-const Header = ({onClickBar}) => {
+const Header = ({onClickBar,onChange}) => {
 
-  const [searchField , setSearchField] = useState('');
+  
    
   return (
     <div className="header">
@@ -27,13 +26,10 @@ const Header = ({onClickBar}) => {
 
       <div className="headerSearch">
         <form action="">
-          <input type="text" placeholder="Search"  onChange={e => setSearchField(e.target.value)
-          } />
+          <input type="text" placeholder="Search"  onChange={onChange}
+           />
           <button><BsSearch>search</BsSearch></button>
         </form>
-        <h1>
-        {searchField}
-        </h1>
       </div>
 
       <div className="headerIcons">
