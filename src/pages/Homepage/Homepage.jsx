@@ -29,7 +29,9 @@ const Homepage = () => {
     <>
       <Header onClickBar={handleOpen} onChange={onChange} />
       <div className="homeContainer">
+        <div className={ open ? "sideicons" : "sidebar" }>
         {open ? <SideIcons /> : <Sidebar />}
+        </div>
         
         <Rightbar filteredVideo={filteredVideo} />
       </div>

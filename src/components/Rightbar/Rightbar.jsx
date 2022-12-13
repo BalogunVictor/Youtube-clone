@@ -1,7 +1,5 @@
 import "./Rightbar.scss";
 import Video from "../Video/Video";
-// import {Videos} from "../../data"
-// import Slide from "../Slide/Slide"
 
 const Rightbar = ({ filteredVideo }) => {
   return (
